@@ -1,0 +1,18 @@
+.Tabs {
+  display: flex;
+  justify-content: center;
+  overflow-y: hidden;
+  gap: 5px;
+}
+.Tab {
+  border: 1px solid black;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.Tab_active {
+  color: white;
+  background-color: rgb(0, 101, 101);
+}
