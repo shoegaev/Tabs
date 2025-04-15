@@ -7,7 +7,7 @@ import cl from "../../styles/WindowWithTabsStyle.module.scss";
 
 export type WindowWithTabsProps = Omit<TabsProps, "options"> & {
   options: {
-    [optionTitle: string]: React.JSX.Element;
+    [optionTitle: string]: React.ReactNode;
   };
 };
 

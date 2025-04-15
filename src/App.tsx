@@ -1,4 +1,3 @@
-// общие импорты
 import React from "react";
 import cl from "./AppStyle.module.scss";
 import {pages} from "./TestPages";

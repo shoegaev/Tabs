@@ -3,7 +3,7 @@ import tabsReducer, {TabsReducerActions} from "../Tabs/TabsReducer";
 
 export interface WindowWithTabsState {
   active: string;
-  options: {[optionTitle: string]: React.JSX.Element};
+  options: {[optionTitle: string]: React.ReactNode};
 }
 
 export type WindowWithTabsReducer = Reducer<
